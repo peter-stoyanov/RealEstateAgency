@@ -2,8 +2,7 @@
 {
     using Common;
     using RealEstateAgency.Exceptions;
-    using RealEstateAgency.Models;
-    using RealEstateAgency.Models.Users;
+    using RealEstateAgency.Models.Properties;
     using static RealEstateAgency.Models.ModelConstants.Common;
 
     internal class Agent : Entity<int>

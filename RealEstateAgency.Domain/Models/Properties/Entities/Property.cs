@@ -5,7 +5,7 @@
     using RealEstateAgency.Models.Properties;
     using static RealEstateAgency.Models.ModelConstants.Property;
 
-    internal class Property : Entity<int>
+    internal class Property : Entity<int>, IAggregateRoot
     {
         internal Property(
             string name,

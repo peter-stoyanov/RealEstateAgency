@@ -41,5 +41,11 @@ namespace RealEstateAgency.Models
             public const int MaxNameLength = 100;
         }
 
+        public class Visit
+        {
+            public static readonly DateTime MinDate = DateTime.Now.AddYears(-50);
+            public static readonly DateTime MaxDate = DateTime.Now.AddYears(50);
+        }
+
     }
 }
