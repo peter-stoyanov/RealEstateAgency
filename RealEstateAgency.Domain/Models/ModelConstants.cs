@@ -35,5 +35,11 @@ namespace RealEstateAgency.Models
             public const decimal MaxAmount = decimal.MaxValue;
         }
 
+        public class Property
+        {
+            public const int MinNameLength = 2;
+            public const int MaxNameLength = 100;
+        }
+
     }
 }

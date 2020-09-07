@@ -1,4 +1,4 @@
-﻿namespace RealEstateAgency.Models
+﻿namespace RealEstateAgency.Models.Properties
 {
 
     using Exceptions;
